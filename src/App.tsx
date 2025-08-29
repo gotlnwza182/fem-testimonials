@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="p-8">
-      <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4">
+    <main className="p-8 h-screen flex justify-center items-center ">
+      <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-6xl">
         <div className="p-8 bg-purple-500 text-white rounded-lg md:col-span-2 relative">
           <div className="flex items-center  gap-4">
             <img
