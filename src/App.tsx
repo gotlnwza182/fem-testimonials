@@ -4,7 +4,7 @@ function App() {
   return (
     <main className="p-8 h-screen flex justify-center items-center ">
       <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-6xl">
-        <div className="p-8 bg-purple-500 text-white rounded-lg md:col-span-2 relative">
+        <div className="p-8 bg-purple-500 text-white rounded-lg md:col-span-2 relative shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
             <img
               src="/image-daniel.jpg"
@@ -37,7 +37,7 @@ function App() {
           />
         </div>
 
-        <div className="p-8 bg-grey-500 text-white rounded-lg">
+        <div className="p-8 bg-grey-500 text-white rounded-lg shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
             <img
               src="/image-jonathan.jpg"
@@ -59,7 +59,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-8 bg-white text-black rounded-lg">
+        <div className="p-8 bg-white text-black rounded-lg shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
             <img
               src="/image-jeanette.jpg"
@@ -80,7 +80,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-8 bg-dark-blue text-grey-200 rounded-lg md:col-span-2">
+        <div className="p-8 bg-dark-blue text-grey-200 rounded-lg md:col-span-2 shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
             <img
               src="/image-patrick.jpg"
@@ -107,7 +107,7 @@ function App() {
           </p>
         </div>
 
-        <div className="p-8 bg-white text-grey-500 rounded-lg md:col-span-2 xl:col-start-4 xl:row-start-1 xl:row-span-2">
+        <div className="p-8 bg-white text-grey-500 rounded-lg md:col-span-2 xl:col-start-4 xl:row-start-1 xl:row-span-2 shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
             <img
               src="/image-kira.jpg"
