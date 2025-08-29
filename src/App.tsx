@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="p-8 h-screen flex justify-center items-center ">
+    <main className="p-8 h-screen flex justify-center items-center flex-col ">
       <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-6xl">
         <div className="p-8 bg-purple-500 text-white rounded-lg md:col-span-2 relative shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
@@ -137,6 +137,25 @@ function App() {
             recommend! ”
           </p>
         </div>
+      </div>
+      <div className="mt-2">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          className="text-blue-600 visited:text-purple-600"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://www.frontendmentor.io/profile/gotlnwza182"
+          target="_blank"
+          className="text-blue-600 visited:text-purple-600"
+        >
+          Denpong Khetpong
+        </a>
+        .
       </div>
     </main>
   );
