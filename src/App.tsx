@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="p-8 h-screen flex justify-center items-center flex-col ">
+    <main className="p-8  min-h-screen flex items-center justify-center flex-col ">
       <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 max-w-6xl">
         <div className="p-8 bg-purple-500 text-white rounded-lg md:col-span-2 relative shadow-[40px_60px_50px_-47px_rgba(72,85,106,24.74)]">
           <div className="flex items-center  gap-4">
@@ -138,7 +138,7 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="mt-2">
+      <div className="mt-2 text-preset-4">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
